@@ -1,0 +1,13 @@
+body {background-color: beige;}
+
+.parent {background-color: blueviolet;
+height: 600px;
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-around;
+}
+
+.child {
+width: 25%;
+height: 100px;
+flex-shrink: 4;}
